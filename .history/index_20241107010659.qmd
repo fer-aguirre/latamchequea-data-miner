@@ -1,0 +1,69 @@
+---
+title: "Guía de web scraping con Data Miner ⚒️"
+format: 
+  html:
+    page-layout: full
+    editor: visual
+    include-in-header:
+      - text: |
+          <style>
+          .panel-tabset > .nav-tabs,
+          .panel-tabset > .tab-content {
+            border: none;
+          }
+          </style>
+---
+
+::: {.panel-tabset .nav-pills}
+
+## Introducción
+
+### ¿Qué es el web scraping?
+
+El web scraping es una técnica utilizada para extraer información de páginas web de forma automatizada.
+
+### ¿Qué es Data Miner?
+
+Data Miner es una extensión para los navegadores Google Chrome y Microsoft Edge que permite a los usuarios extraer datos de sitios web de manera. Con esta herramienta, puedes scrapear información visible en las páginas web y exportarla fácilmente a formatos como CSV o Excel.
+
+### ¿Por qué utilizar Data Miner?
+
+- Se pueden descargar grandes cantidades de información siguiendo solo una serie de pasos desde su interfaz.
+- No es necesario saber ningún lenguaje de programación y es fácil de usar.
+- La versión gratuita ofrece muchas funcionalidades.
+
+### ¿Qué necesito instalar?
+
+- Descargar [Google Chrome](https://www.google.com/intl/es-419/chrome/dr/download/)
+- Descargar la extensión de [Data Miner](https://chromewebstore.google.com/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden)
+
+## Guía de pasos
+
+1. Haz clic en el icono de Data Miner (`⛏️`) en el navegador
+
+2. Selecciona `▶️ Scrape This Page`
+
+3. Ve a la sección `✏️ New Recipe` y selecciona el botón `➕ New Recipe` que desplegará el Recipe Creator
+
+4. En la sección `Type` selecciona `List / Search Page: multiple rows`
+
+5. En la sección `Scrape` utiliza el `✏️ Easy Row Finder` para localizar cada una de las filas que conformarán la base de datos
+
+6. Una vez que identificaste las filas, asigna el tipo de información que tendrá cada una de ellas haciendo clic en `➕ Add New Column`. Para cada columna, define un nombre y un tipo de valor con ayuda del `✏️ Easy Column Finder`
+
+7. En la sección `Nav` ubica el botón `✏️ Easy Nav Finder` y localiza el botón que lleve a la siguiente página de la lista. Esto solo es necesario en caso de que se tengan que hacer búsquedas en varias páginas
+
+8. En la sección `Save` asigna un nombre a la receta y una breve descripción sobre qué datos colecta de este sitio web. Por último, si la receta es nueva, hacer clic en `💾 Save as new`
+
+
+## Tips & Tricks Avanzados
+
+- [Documentación](https://dataminer.io/help/quick-start) en inglés sobre cómo usar Data Miner.
+
+- Para explotar todas las funcionalidades disponibles en Data Miner, ayuda tener conocimientos básicos de HTML y CSS para poder crear selectores más precisos y personalizables con las funciones avanzadas.
+
+- Cuando el sitio web tiene una tabla, se puede utilizar otra extensión llamada [Table Capture](https://chromewebstore.google.com/detail/table-capture/iebpjdmgckacbodjpijphcplhebcmeop) que la descarga directamente.
+
+- En los casos donde se tengan que descargar datos de una lista de páginas (crawler), se puede hacer uso de [Minet](https://github.com/medialab/minet). Aunque para poder utilizarla se requieren conocimientos de la línea de comandos.
+
+:::

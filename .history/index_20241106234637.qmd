@@ -1,0 +1,30 @@
+---
+title: "Guía de web scraping con Data Miner ⚒️"
+format: 
+  html:
+    page-layout: full
+    editor: visual
+    include-in-header:
+      - text: |
+          <style>
+          .panel-tabset > .nav-tabs,
+          .panel-tabset > .tab-content {
+            border: none;
+          }
+          </style>
+---
+
+::: {.panel-tabset .nav-pills}
+
+## Introducción
+
+### ¿Qué es hacer web scraping?
+
+¿Qué es Data Miner?
+
+## Guía de pasos
+
+
+## Ejercicios
+
+:::

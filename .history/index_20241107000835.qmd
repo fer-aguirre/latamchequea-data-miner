@@ -1,0 +1,50 @@
+---
+title: "Guía de web scraping con Data Miner ⚒️"
+format: 
+  html:
+    page-layout: full
+    editor: visual
+    include-in-header:
+      - text: |
+          <style>
+          .panel-tabset > .nav-tabs,
+          .panel-tabset > .tab-content {
+            border: none;
+          }
+          </style>
+---
+
+::: {.panel-tabset .nav-pills}
+
+## Introducción
+
+### ¿Qué es el web scraping?
+
+El web scraping es una técnica utilizada para extraer información de páginas web de forma automatizada.
+
+### ¿Qué es Data Miner?
+
+Data Miner es una extensión para los navegadores Google Chrome y Microsoft Edge que permite a los usuarios extraer datos de sitios web de manera. Con esta herramienta, puedes scrapear información visible en las páginas web y exportarla fácilmente a formatos como CSV o Excel.
+
+### ¿Por qué utilizar Data Miner?
+
+- Se pueden descargar grandes cantidades de información siguiendo solo una serie de pasos desde su interfaz.
+- No es necesario saber ningún lenguaje de programación y es fácil de usar.
+- La versión gratuita ofrece muchas funcionalidades.
+
+### ¿Qué necesito instalar?
+
+- Descargar [Google Chrome](https://www.google.com/intl/es-419/chrome/dr/download/)
+- Descargar la extensión de [Data Miner](https://chromewebstore.google.com/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden)
+
+## Guía de pasos
+
+1. Hacer clic en el icono de Data Miner `✏️` en el navegador
+
+2. Seleccionar `Scrape This Page`
+
+3. Ir a la sección `✏️ New Recipe`
+
+## Ejercicios
+
+:::

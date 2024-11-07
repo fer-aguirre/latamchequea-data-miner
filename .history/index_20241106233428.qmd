@@ -1,0 +1,8 @@
+---
+title: "Guía de web scraping con Data Miner"
+format: 
+  html:
+    page-layout: full
+    editor: visual
+---
+
