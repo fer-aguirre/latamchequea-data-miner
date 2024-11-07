@@ -1,8 +1,0 @@
----
-title: "Mesas de ping pong en CABA 🏓"
-format: 
-  html:
-    page-layout: full
-    editor: visual
----
-
